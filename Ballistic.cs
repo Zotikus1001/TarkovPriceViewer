@@ -18,6 +18,7 @@ namespace TarkovPriceViewer
         public String BL;//Bleed_L
         public String BH;//Bleed_H
         //Bullet_effectiveness_against_armor_class
+        public String BSP; // Bullet speed
         public String BE1;
         public String BE2;
         public String BE3;
@@ -30,7 +31,7 @@ namespace TarkovPriceViewer
         public List<Ballistic> Calibarlist;
 
         public Ballistic(string name, string damage, string pP, string aD,
-            string accuracy, string recoil, string fC, string bL, string bH,
+            string accuracy, string recoil, string fC, string bL, string bH, string bSP,
             string bE1, string bE2, string bE3, string bE4, string bE5, string bE6, string special, List<Ballistic> calibarlist)
         {
             Name = name;
@@ -42,6 +43,7 @@ namespace TarkovPriceViewer
             FC = fC;
             BL = bL;
             BH = bH;
+            BSP = bSP;
             BE1 = bE1;
             BE2 = bE2;
             BE3 = bE3;
