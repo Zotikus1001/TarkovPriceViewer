@@ -502,6 +502,7 @@ namespace TarkovPriceViewer
                                                 , sub_nodes[first++].InnerText.Trim()
                                                 , sub_nodes[first++].InnerText.Trim()
                                                 , sub_nodes[first++].InnerText.Trim()
+                                                , sub_nodes[first++].InnerText.Trim()
                                                 , special
                                                 , sub_blist
                                                 );
